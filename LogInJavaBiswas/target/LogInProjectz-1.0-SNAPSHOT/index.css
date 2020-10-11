@@ -1,0 +1,94 @@
+body{
+    position:relative;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background: url(supbg.jpg);
+    height: 100vh;
+    width: 100vw;
+}
+.row{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    font-size: 23px;
+    text-transform: capitalize;
+}
+.wrapper{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #eee;
+    padding: 40px 20px;
+    border-radius: 5px;
+    position: relative;
+}
+.form-block{
+    margin: 20px 0;
+}
+.form-block label{
+    padding: 2px 0;
+    text-transform: capitalize;
+    display: block;
+    font-weight: 600;
+}
+.form-style{
+    width: 100%;
+    padding: 2px 6px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+}
+.login-button{
+    background: chocolate;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    width: 100%;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.admin{
+    position: absolute;
+    top: -85px;
+    transform: translateX(114px);
+}
+.admin img{
+    width: 32%;
+    height: 50%;
+}
+.name{
+    position:absolute;
+    color:orange;
+    left:494px;
+    top:245px;
+    border:2px solid green;
+    width:279px;
+    height: 95px;
+    text-align: center;
+    
+}
+.error{
+    position: absolute;
+    color:orange;
+    left:494px;
+    top:245px;
+    border:2px solid green;
+    width:279px;
+    height: 95px;
+    text-align: center;
+}
